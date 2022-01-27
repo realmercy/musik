@@ -19,7 +19,7 @@
          }
       ]
    "spotify": {
-      "clientID": process.env.id,
-      "clientSecret": process.env.secret
+      "clientID": "process.env.id",
+      "clientSecret": "process.env.secret"
    }
 }
