@@ -1,8 +1,8 @@
 {
    "token": "Bot Token",
-   "prefix": "?",
+   "prefix": "$",
    "ownerIDS": [
-      "442355791412854784"
+      "906148826878996501"
    ],
    "status": {
       "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",

@@ -1,20 +1,4 @@
-﻿
-/**********************************************************
- * @INFO  [TABLE OF CONTENTS]
- * 1  Import_Modules
-   * 1.1 Validating script for advertisement
- * 2  CREATE_THE_DISCORD_BOT_CLIENT
- * 3  create_the_languages_objects
- * 4  Raise_the_Max_Listeners
- * 5  LOAD_the_BOT_Functions_and_events
- * 6  Login_to_the_Bot
- * 
- *   BOT CODED BY: TOMato6966 | https://milrato.dev
- *********************************************************/
-
-
-
-/**********************************************************
+﻿/**********************************************************
  * @param {1} Import_Modules for this FIle
  *********************************************************/
 const Discord = require("discord.js");
@@ -44,8 +28,8 @@ const client = new Discord.Client({
   ],
   presence: {
     activities: [{
-      name: `${config.status.text}`.replace("{prefix}", config.prefix), 
-      type: config.status.type, url: config.status.url
+      name: `MUSIC ON E T I S M 2.0`, 
+      type: "PLAYING"
     }],
     status: "online"
   }
@@ -67,8 +51,8 @@ Object.freeze(client.la)
 /**********************************************************
  * @param {4} Raise_the_Max_Listeners to 25 (default 10)
  *********************************************************/
-client.setMaxListeners(25);
-require('events').defaultMaxListeners = 25;
+client.setMaxListeners(99);
+require('events').defaultMaxListeners = 99;
 
 
 
@@ -84,15 +68,3 @@ Array("extraevents", "loaddb", "clientvariables", "command", "events", "erelahan
  * @param {6} Login_to_the_Bot
 *********************************************************/
 client.login(process.env.token || config.token);
-
-
-
-/**********************************************************
- * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
- * @INFO
- * Work for Milrato Development | https://milrato.dev
- * @INFO
- * Please mention him / Milrato Development, when using this Code!
- * @INFO
- *********************************************************/
