@@ -6,21 +6,20 @@
    ],
    "status": {
       "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",
-      "text2": "By: milrato.dev",
+      "text2": "MUSIC ON ETISM 2.0",
       "type": "PLAYING",
-      "url": "https://twitch.tv/#"
+      "url": "https://dsc.gg/etism"
    },
-   "clientsettings": {
+   "clientsettings"
       "nodes": [
          {
-            "host": "localhost",
+            "host": "node04.lavalink.eu",
             "port": 2333,
-            "password": "youshallnotpass"
+            "password": "Raccoon"
          }
       ]
-   },
    "spotify": {
-      "clientID": "",
-      "clientSecret": ""
+      "clientID": process.env.id,
+      "clientSecret": process.env.secret
    }
 }
